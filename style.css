@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* top-tranding */
+.tranding-img img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+.tranding-main {
+  margin: 15px 0 20px 0;
+}
+.product-name {
+  padding-bottom: 8px;
+}
+.product-name span {
+  font-size: 16px;
+  font-weight: 500;
+}
+.ratting {
+  font-size: 12px;
+  padding-bottom: 8px;
+}
+.price span {
+  font-weight: 600;
+  font-size: 14px;
+}
+.price .del span {
+  color: var(--hover-color);
+  font-weight: 400;
+}
+.tranding-btn .banner-btn a span {
+  background-color: transparent;
+  border: 1px solid silver;
+  color: var(--primary-color);
+}
+.modal {
+  --bs-modal-width: 1000px;
+}
