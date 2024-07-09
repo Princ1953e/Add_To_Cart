@@ -160,7 +160,9 @@ const printCart = () => {
                             <td colspan="5">Total Price: ${totalPrice()}</td>
                           </tr>`;
   } else {
-    cartPnt.innerHTML = "Your Cart Is Empty";
+    cartPnt.innerHTML = `<tr class="text-center">
+                            <p class="text-lg">Your Cart Is Emty</p>
+                          </tr>`;
   }
 };
 printCart();
